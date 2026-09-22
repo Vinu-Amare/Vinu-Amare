@@ -11,7 +11,7 @@
 **About**
 
 - Front-End Software Engineer, 2 years commercial experience — Angular, TypeScript, live production dashboards & POS UI
-- BSc (Hons) Software Engineering, SLIIT *(graduating September 2026)*
+- BSc (Hons) Information Technology, specializing in Software Engineering, SLIIT
 - Building daily with AI-assisted workflows (Claude, Copilot) — used to move faster, not to skip understanding
 - Currently deepening Vue.js and frontend testing (Vitest)
 - [LinkedIn](https://linkedin.com/in/vinukiamarasinghe) · vinukiiamare02@gmail.com
