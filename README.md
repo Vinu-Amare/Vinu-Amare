@@ -1,6 +1,8 @@
 <div align="center">
 
-![My GitGarden Sprite](https://gitgarden-production.up.railway.app/api/sprite/aaba10f2-8456-4aa9-a7a1-f729d93f7061)
+<!--![My GitGarden Sprite](https://gitgarden-production.up.railway.app/api/sprite/aaba10f2-8456-4aa9-a7a1-f729d93f7061) -->
+
+[![My GitGarden](https://trygitgarden.com)](https://thegitgarden.com/garden/Vinu-Amare)
 
 <img src="https://readme-typing-svg.demolab.com/?font=Press+Start+2P&size=13&pause=1200&color=FF6FB0&center=true&vCenter=true&width=700&lines=FRONT-END+SOFTWARE+ENGINEER;ANGULAR+%7C+TYPESCRIPT+%7C+REACT;LEVELING+UP+IN+VUE.JS" />
 
