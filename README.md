@@ -37,7 +37,7 @@
 **GitHub Stats**
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=it21813702&hide_border=true&background=0D1117&border=0D1117&stroke=FF6FB0&ring=FF6FB0&fire=FF6FB0&currStreakNum=FFFFFF&sidebarTitle=FF6FB0&currStreakLabel=FF6FB0&sideNums=FFFFFF&sideLabels=FFFFFF&dates=C77DFF" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Vinu-Amare&hide_border=true&background=0D1117&border=0D1117&stroke=FF6FB0&ring=FF6FB0&fire=FF6FB0&currStreakNum=FFFFFF&sidebarTitle=FF6FB0&currStreakLabel=FF6FB0&sideNums=FFFFFF&sideLabels=FFFFFF&dates=C77DFF" />
 
 </div>
 
