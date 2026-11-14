@@ -1,0 +1,13 @@
+{
+  "name": "vinu-amare-profile",
+  "private": true,
+  "description": "Pixel-art assets for my GitHub profile README, generated with Node",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build-hero.mjs && node scripts/build-ticker.mjs && node scripts/build-icons.mjs && node scripts/build-trim.mjs",
+    "build:garden": "node scripts/build-garden.mjs"
+  }
+}
