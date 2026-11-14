@@ -1,0 +1,31 @@
+name: Grow the contribution garden
+
+on:
+  schedule:
+    - cron: '17 0 * * *' # nightly, just after midnight UTC (off the busy top of the hour)
+  workflow_dispatch: # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write # needed to commit the refreshed SVGs
+
+jobs:
+  garden:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build the garden from this year's contributions
+        run: node scripts/build-garden.mjs --user "${{ github.repository_owner }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit only if the garden changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/garden-light.svg assets/garden-dark.svg
+          git diff --staged --quiet || (git commit -m "Refresh contribution garden" && git push)
